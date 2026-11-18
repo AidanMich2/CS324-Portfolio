@@ -1,4 +1,4 @@
-baseURL = 'https://aidanmich2.github.io/sdd-portfolio/'
+baseURL = 'https://aidanmich2.github.io/CS324-Portfolio/'
 locale = 'en-us'
 title = 'Software Design & Development Portfolio'
 theme = 'PaperMod'
