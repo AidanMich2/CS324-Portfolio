@@ -1,0 +1,53 @@
+baseURL = 'https://aidanmich.github.io/sdd-portfolio/'
+locale = 'en-us'
+title = 'Software Design & Development Portfolio'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+  env = 'production'
+  description = 'Project portfolio for Software Design and Development (Fall 2026)'
+  defaultTheme = 'auto'
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  disableSpecial1stPost = true
+
+[params.homeInfoParams]
+  Title = "Software Design & Development Portfolio"
+  Content = "A collection of samples from my individual and group project work, organized by course competency."
+
+[[menu.main]]
+  identifier = 'development'
+  name = 'Development'
+  url = '/competencies/development/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'verification'
+  name = 'Verification'
+  url = '/competencies/verification/'
+  weight = 20
+
+[[menu.main]]
+  identifier = 'design'
+  name = 'Design'
+  url = '/competencies/design/'
+  weight = 30
+
+[[menu.main]]
+  identifier = 'engineering'
+  name = 'Engineering'
+  url = '/competencies/engineering/'
+  weight = 40
+
+[markup]
+  [markup.highlight]
+    noClasses = false
